@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9fd8439defd17d641820adebac2c2c9c
+guid: 775fb2391b192cc45a2e6685ff2079a4
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,7 +121,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Sprite-0001
+  - name: Player
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 32
       height: 32
-    spriteID: 2f76a7e3c2568ef4bbe49bc8d9560a6b
+    spriteID: cb9193d85f80cfc43a2b37ce5b0156cc
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,13 +144,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -572921211
-    name: Sprite-0001
+    guid: 1687901567
+    name: Player
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Sprite-0001
+    - name: Player
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -158,7 +158,7 @@ ScriptedImporter:
         y: 0
         width: 32
         height: 32
-      spriteId: 2f76a7e3c2568ef4bbe49bc8d9560a6b
+      spriteId: cb9193d85f80cfc43a2b37ce5b0156cc
     linkedCells: []
     parentIndex: -1
   platformSettings:
