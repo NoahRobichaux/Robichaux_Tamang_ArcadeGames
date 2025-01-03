@@ -2341,12 +2341,8 @@ MonoBehaviour:
       Launch","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"MissleSR","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.SpriteRenderer,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"MissileRB","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Rigidbody2D,
-<<<<<<< HEAD
       UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Particle_System
       ","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-=======
-      UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Enemy1","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
->>>>>>> 0570d871860b6f08fed8e3ebb574255dfc4b59d4
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 878209854}
@@ -2354,11 +2350,7 @@ MonoBehaviour:
     - {fileID: 859918086}
     - {fileID: 859918094}
     - {fileID: 859918093}
-<<<<<<< HEAD
     - {fileID: 1301630286}
-=======
-    - {fileID: 629338325}
->>>>>>> 0570d871860b6f08fed8e3ebb574255dfc4b59d4
 --- !u!4 &286306723
 Transform:
   m_ObjectHideFlags: 0
@@ -5638,7 +5630,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.024249204, y: 0.18449813}
+  m_Offset: {x: 0, y: 0.16}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -5649,7 +5641,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.14101794, y: 0.1005249}
+  m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
 --- !u!114 &629338328
 MonoBehaviour:
@@ -23282,6 +23274,7 @@ SceneRoots:
   - {fileID: 550945026}
   - {fileID: 511665266}
   - {fileID: 2043160887}
+  - {fileID: 239333880}
   - {fileID: 5270970887493222299}
   - {fileID: 629338324}
   - {fileID: 1352041041}
@@ -23289,11 +23282,4 @@ SceneRoots:
   - {fileID: 1298370854}
   - {fileID: 941725898}
   - {fileID: 1967018205}
-<<<<<<< HEAD
   - {fileID: 1301630289}
-=======
-  - {fileID: 1588331936}
-  - {fileID: 1374970871}
-  - {fileID: 286306723}
-  - {fileID: 239333880}
->>>>>>> 0570d871860b6f08fed8e3ebb574255dfc4b59d4
