@@ -6,7 +6,8 @@ TagManager:
   tags:
   - BunkerSquare
   - Enemy
-  - Missle
+  - Missile
+  - TopWall
   layers:
   - Default
   - TransparentFX
