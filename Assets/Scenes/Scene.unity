@@ -287,11 +287,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 33661350}
   m_CullTransparentMesh: 1
---- !u!4 &165179794 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7035572971866859928, guid: 3d03edae64ba1b241aa9812f19915b96, type: 3}
-  m_PrefabInstance: {fileID: 237063333}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &223309935
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -419,83 +414,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f499497c09b2eb4399ca7931c2bc666, type: 3}
---- !u!1001 &237063333
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 739487733}
-    m_Modifications:
-    - target: {fileID: 2769037802840987384, guid: 3d03edae64ba1b241aa9812f19915b96, type: 3}
-      propertyPath: m_Name
-      value: Missile
-      objectReference: {fileID: 0}
-    - target: {fileID: 2769037802840987384, guid: 3d03edae64ba1b241aa9812f19915b96, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5303037981782680559, guid: 3d03edae64ba1b241aa9812f19915b96, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7035572971866859928, guid: 3d03edae64ba1b241aa9812f19915b96, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.06967041
-      objectReference: {fileID: 0}
-    - target: {fileID: 7035572971866859928, guid: 3d03edae64ba1b241aa9812f19915b96, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.07487834
-      objectReference: {fileID: 0}
-    - target: {fileID: 7035572971866859928, guid: 3d03edae64ba1b241aa9812f19915b96, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7035572971866859928, guid: 3d03edae64ba1b241aa9812f19915b96, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.333
-      objectReference: {fileID: 0}
-    - target: {fileID: 7035572971866859928, guid: 3d03edae64ba1b241aa9812f19915b96, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7035572971866859928, guid: 3d03edae64ba1b241aa9812f19915b96, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7035572971866859928, guid: 3d03edae64ba1b241aa9812f19915b96, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7035572971866859928, guid: 3d03edae64ba1b241aa9812f19915b96, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7035572971866859928, guid: 3d03edae64ba1b241aa9812f19915b96, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7035572971866859928, guid: 3d03edae64ba1b241aa9812f19915b96, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7035572971866859928, guid: 3d03edae64ba1b241aa9812f19915b96, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7035572971866859928, guid: 3d03edae64ba1b241aa9812f19915b96, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7720898834691066897, guid: 3d03edae64ba1b241aa9812f19915b96, type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3d03edae64ba1b241aa9812f19915b96, type: 3}
 --- !u!1 &239333877
 GameObject:
   m_ObjectHideFlags: 0
@@ -607,7 +525,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"Score","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+    _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"Score","value":{"$content":10,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"score_Value","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"TMPro.TextMeshProUGUI,
       Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Lives","value":{"$content":10,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Lives_Value","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"TMPro.TextMeshProUGUI,
@@ -618,8 +536,7 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"enemy_1","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BunkerSquare","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TopWall","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Missile","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Transform,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Player","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Player","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1797664750}
@@ -628,7 +545,6 @@ MonoBehaviour:
     - {fileID: 801578550}
     - {fileID: 809530440}
     - {fileID: 821622608}
-    - {fileID: 165179794}
     - {fileID: 984012824}
 --- !u!4 &286306723
 Transform:
@@ -1028,11 +944,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &739487733 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1072254968613366779, guid: b8d920da7c52e084385c5fc0cd315612, type: 3}
-  m_PrefabInstance: {fileID: 2124192451}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &801578550
 GameObject:
   m_ObjectHideFlags: 0
@@ -6845,11 +6756,11 @@ MonoBehaviour:
       UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Score
       ","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Score
-      Value","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Lives","value":{"$content":3,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      Value","value":{"$content":10,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Lives","value":{"$content":10,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 1706215318}
+    - {fileID: 0}
     - {fileID: 984012824}
     - {fileID: 1588331935}
 --- !u!4 &1374970871
@@ -7171,11 +7082,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f499497c09b2eb4399ca7931c2bc666, type: 3}
---- !u!1 &1706215318 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2769037802840987384, guid: 3d03edae64ba1b241aa9812f19915b96, type: 3}
-  m_PrefabInstance: {fileID: 237063333}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1794996789
 GameObject:
   m_ObjectHideFlags: 0
@@ -7908,18 +7814,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7317481491428202934, guid: b8d920da7c52e084385c5fc0cd315612, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.333
+      value: 0.393
       objectReference: {fileID: 0}
     - target: {fileID: 7627910757728022101, guid: b8d920da7c52e084385c5fc0cd315612, type: 3}
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
+    - target: {fileID: 8642594297765379680, guid: b8d920da7c52e084385c5fc0cd315612, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 1072254968613366779, guid: b8d920da7c52e084385c5fc0cd315612, type: 3}
-      insertIndex: 0
-      addedObject: {fileID: 165179794}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8d920da7c52e084385c5fc0cd315612, type: 3}
 --- !u!4 &2126920913 stripped
