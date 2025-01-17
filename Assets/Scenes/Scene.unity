@@ -539,10 +539,9 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Lives_Value","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"TMPro.TextMeshProUGUI,
       Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"MissileSpawn
       Location","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Transform,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Paritcal
-      system Explosion ","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"particleSystemExplosion
+      ","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"enemy_1","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BunkerSquare","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TopWall","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Player","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
@@ -644,7 +643,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3850386440535604055, guid: 9c262f90d4d35df46b909cccb390da0e, type: 3}
       propertyPath: m_Name
-      value: Bunker_1 (2)
+      value: Bunker_3
       objectReference: {fileID: 0}
     - target: {fileID: 4999314387151500592, guid: 9c262f90d4d35df46b909cccb390da0e, type: 3}
       propertyPath: m_LocalScale.x
@@ -721,7 +720,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3850386440535604055, guid: 9c262f90d4d35df46b909cccb390da0e, type: 3}
       propertyPath: m_Name
-      value: Bunker_1 (1)
+      value: Bunker_2
       objectReference: {fileID: 0}
     - target: {fileID: 4999314387151500592, guid: 9c262f90d4d35df46b909cccb390da0e, type: 3}
       propertyPath: m_LocalScale.x
@@ -1618,7 +1617,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    gravitySource: 0
+    gravitySource: 1
     maxNumParticles: 1000
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
@@ -5780,7 +5779,7 @@ Transform:
   m_GameObject: {fileID: 801578550}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -33.079773, y: 12.471507, z: -0.5729117}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7316,7 +7315,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -7362,7 +7361,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3850386440535604055, guid: 9c262f90d4d35df46b909cccb390da0e, type: 3}
       propertyPath: m_Name
-      value: Bunker_1 (3)
+      value: Bunker_4
       objectReference: {fileID: 0}
     - target: {fileID: 4999314387151500592, guid: 9c262f90d4d35df46b909cccb390da0e, type: 3}
       propertyPath: m_LocalScale.x
